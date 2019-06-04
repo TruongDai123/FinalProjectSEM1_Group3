@@ -1,0 +1,14 @@
+D:\projectSEM1\FinalProjectSEM1_Group3\BL\bin\Debug\netstandard2.0\BL.deps.json
+D:\projectSEM1\FinalProjectSEM1_Group3\BL\bin\Debug\netstandard2.0\BL.dll
+D:\projectSEM1\FinalProjectSEM1_Group3\BL\bin\Debug\netstandard2.0\BL.pdb
+D:\projectSEM1\FinalProjectSEM1_Group3\BL\bin\Debug\netstandard2.0\DAL.dll
+D:\projectSEM1\FinalProjectSEM1_Group3\BL\bin\Debug\netstandard2.0\Persistence.dll
+D:\projectSEM1\FinalProjectSEM1_Group3\BL\bin\Debug\netstandard2.0\DAL.pdb
+D:\projectSEM1\FinalProjectSEM1_Group3\BL\bin\Debug\netstandard2.0\Persistence.pdb
+D:\projectSEM1\FinalProjectSEM1_Group3\BL\obj\Debug\netstandard2.0\BL.csprojAssemblyReference.cache
+D:\projectSEM1\FinalProjectSEM1_Group3\BL\obj\Debug\netstandard2.0\BL.csproj.CoreCompileInputs.cache
+D:\projectSEM1\FinalProjectSEM1_Group3\BL\obj\Debug\netstandard2.0\BL.AssemblyInfoInputs.cache
+D:\projectSEM1\FinalProjectSEM1_Group3\BL\obj\Debug\netstandard2.0\BL.AssemblyInfo.cs
+D:\projectSEM1\FinalProjectSEM1_Group3\BL\obj\Debug\netstandard2.0\BL.csproj.CopyComplete
+D:\projectSEM1\FinalProjectSEM1_Group3\BL\obj\Debug\netstandard2.0\BL.dll
+D:\projectSEM1\FinalProjectSEM1_Group3\BL\obj\Debug\netstandard2.0\BL.pdb

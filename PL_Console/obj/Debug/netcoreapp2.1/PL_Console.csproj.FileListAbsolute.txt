@@ -1,0 +1,4 @@
+D:\projectSEM1\FinalProjectSEM1_Group3\PL_Console\obj\Debug\netcoreapp2.1\PL_Console.csprojAssemblyReference.cache
+D:\projectSEM1\FinalProjectSEM1_Group3\PL_Console\obj\Debug\netcoreapp2.1\PL_Console.csproj.CoreCompileInputs.cache
+D:\projectSEM1\FinalProjectSEM1_Group3\PL_Console\obj\Debug\netcoreapp2.1\PL_Console.AssemblyInfoInputs.cache
+D:\projectSEM1\FinalProjectSEM1_Group3\PL_Console\obj\Debug\netcoreapp2.1\PL_Console.AssemblyInfo.cs
