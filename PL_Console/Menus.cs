@@ -81,38 +81,36 @@ namespace PL_Console
                 {
                     user = ubl.Login(usn, pass);
                 }
-                catch (System.Exception)
+                catch (System.NullReferenceException)
                 {
-                    //     Console.Write("Mất kết nối, bạn có muốn đăng nhập lại không? (Y/N)");
-                    //     choice = Console.ReadLine().ToUpper();
-                    // }
-
-                    //     while (true)
-                    //     {
-                    //         if (choice != "Y" && choice != "N")
-                    //         {
-                    //             Console.Write("Bạn chỉ được nhập (Y/N): ");
-                    //             choice = Console.ReadLine().ToUpper();
-                    //             continue;
-                    //         }
-                    //         break;
-                    //     }
-                    //     switch (choice)
-                    //     {
-                    //         case "Y":
-                    //             continue;
-                    //         case "y":
-                    //             continue;
-                    //         case "N":
-                    //             MenuChoice(null);
-                    //             break;
-                    //         case "n":
-                    //             MenuChoice(null);
-                    //             break;
-                    //         default:
-                    //             continue;
+                    Console.Write("Mất kết nối, bạn có muốn đăng nhập lại không? (Y/N)");
+                    choice = Console.ReadLine().ToUpper();
+                    while (true)
+                    {
+                        if (choice != "Y" && choice != "N")
+                        {
+                            Console.Write("Bạn chỉ được nhập (C/K): ");
+                            choice = Console.ReadLine().ToUpper();
+                            continue;
+                        }
+                        break;
+                    }
+                    switch (choice)
+                    {
+                        case "Y":
+                            continue;
+                        case "y":
+                            continue;
+                        case "N":
+                            MenuChoice(null);
+                            break;
+                        case "n":
+                            MenuChoice(null);
+                            break;
+                        default:
+                            continue;
+                    }
                 }
-
                 if (user == null)
                 {
                     Console.Write("Tên đăng nhập / mật khẩu không đúng, bạn có muốn đăng nhập lại không? (Y/N)");
@@ -147,13 +145,13 @@ namespace PL_Console
                 }
                 break;
             }
-            if (user.Type == "emp")
+            if (user.Type == "Waiter")
             {
-                menuEmployees(ubl.Login(usn, pass));
+                menuEmployees(user);
             }
-            else if (user.Type == "pay")
+            else if (user.Type == "Cashier")
             {
-                menuPay(ubl.Login(usn, pass));
+                menuPay(user);
             }
         }
 

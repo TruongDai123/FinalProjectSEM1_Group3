@@ -18,7 +18,7 @@ namespace CTS_DAL
 
         public object Connection { get; }
 
-        public Employees GetEmployeesByCineId(int? emplId)
+        public Employees GetEmployeesEmplId(int? emplId)
         {
             if (emplId == null)
             {

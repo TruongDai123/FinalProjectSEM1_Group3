@@ -53,11 +53,11 @@ namespace CTS_DAL
 
             Connection.Close();
 
-            if (user != null)
-            {
-                EmployeesDAL employeesDAL = new EmployeesDAL();
-                Employees employees = employeesDAL.GetEmployeesEmplId(user.Empl.EmplId);
-            }
+            // if (user != null)
+            // {
+            //     EmployeesDAL employeesDAL = new EmployeesDAL();
+            //     Employees employees = employeesDAL.GetEmployeesEmplId(user.Empl.EmplId);
+            // }
 
             return user;
         }

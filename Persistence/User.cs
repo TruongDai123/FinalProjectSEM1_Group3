@@ -15,6 +15,7 @@ namespace CTS_Persistence
         public User() { }
         public User(int userId, string username, string password, string type, Employees empl)
         {
+            Employees E =  new Employees();
             this.UserId = userId;
             this.Username = username;
             this.Password = password;
