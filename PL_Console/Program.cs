@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Text;
 using System.Security;
-using BL;
+using CTS_BL;
 using System.Text.RegularExpressions;
-using Persistence;
+using CTS_Persistence;
 
 namespace PL_Console
 {
-    class Program
+    partial class Program
     {
         static void Main(string[] args)
         {
