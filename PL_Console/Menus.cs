@@ -52,7 +52,7 @@ namespace PL_Console
 
                     while (true)
                     {
-                        if (choice != "C" && choice != "K")
+                        if (choice != "Y" && choice != "N")
                         {
                             Console.Write("Bạn chỉ được nhập (Y/N): ");
                             choice = Console.ReadLine().ToUpper();
@@ -171,7 +171,8 @@ namespace PL_Console
         {
             Console.Clear();
             string[] employeesmenu = { "Tạo Order món ăn", "Đăng xuất" };
-            int emp = Menu("Chào mừng bạn", employeesmenu);
+            string title = "Chào Mừng " + us.Name +" Chức Vụ " + us.Type;
+            int emp = Menu(title, employeesmenu);
             switch (emp)
             {
                 case 1:
@@ -203,7 +204,8 @@ namespace PL_Console
         {
             Console.Clear();
             string[] Paymenu = { "Thanh Toán.", "Đăng xuất." };
-            int pay = Menu("Chào mừng bạn", Paymenu);
+            string title = "Chào Mừng " + us.Name +" Chức vụ " + us.Type;
+            int pay = Menu(title, Paymenu);
             switch (pay)
             {
                 case 1:

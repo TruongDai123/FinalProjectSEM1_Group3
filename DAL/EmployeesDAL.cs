@@ -53,7 +53,7 @@ namespace CTS_DAL
         {
             int emplId = reader.GetInt32("employee_id");
             string emplPosition = reader.GetString("employee_position");
-            string emplName = reader.GetString("employee_name");
+            string emplName = reader.GetString("employee_username");
             string emplPhone = reader.GetString("phone_number");
 
             Employees employees = new Employees(emplId, emplPosition, emplName, emplPhone);

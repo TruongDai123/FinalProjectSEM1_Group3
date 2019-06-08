@@ -40,7 +40,7 @@ namespace CTS_DAL
                 Connection.Open();
             }
 
-            query = @"select * from Employee where employee_name = '" + username + "' and employee_password= '" + password + "';";
+            query = @"select * from Employee where employee_username = '" + username + "' and employee_password= '" + password + "';";
             MySqlCommand command = new MySqlCommand(query, Connection);
             User user = null;
             using (reader = command.ExecuteReader())
@@ -64,12 +64,13 @@ namespace CTS_DAL
 
         private User GetUser(MySqlDataReader reader)
         {
-            string username = reader.GetString("employee_name");
+            string username = reader.GetString("employee_username");
             string password = reader.GetString("employee_password");
+            string name = reader.GetString("employee_name");
             string type = reader.GetString("employee_position");
             Employees employees = new Employees(reader.GetInt32("employee_id"), null, null, null);
 
-            User user = new User(username, password, type, employees);
+            User user = new User(username, password, name, type, employees);
 
             return user;
         }
