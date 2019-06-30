@@ -1,10 +1,9 @@
 using System;
 using System.Text.RegularExpressions;
-using CTS_Persistence;
-using DAL;
+using Persistence;
 using MySql.Data.MySqlClient;
 
-namespace CTS_DAL
+namespace DAL
 {
     public class UserDAL
     {
@@ -52,13 +51,7 @@ namespace CTS_DAL
             }
 
             Connection.Close();
-
-            // if (user != null)
-            // {
-            //     EmployeesDAL employeesDAL = new EmployeesDAL();
-            //     Employees employees = employeesDAL.GetEmployeesEmplId(user.Empl.EmplId);
-            // }
-
+            
             return user;
         }
 

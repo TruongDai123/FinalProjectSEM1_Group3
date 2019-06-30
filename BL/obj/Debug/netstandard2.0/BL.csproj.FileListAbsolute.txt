@@ -12,3 +12,17 @@ D:\projectSEM1\FinalProjectSEM1_Group3\BL\obj\Debug\netstandard2.0\BL.AssemblyIn
 D:\projectSEM1\FinalProjectSEM1_Group3\BL\obj\Debug\netstandard2.0\BL.csproj.CopyComplete
 D:\projectSEM1\FinalProjectSEM1_Group3\BL\obj\Debug\netstandard2.0\BL.dll
 D:\projectSEM1\FinalProjectSEM1_Group3\BL\obj\Debug\netstandard2.0\BL.pdb
+c:\Users\admin\Desktop\FinalProjectSEM1_Group03\BL\bin\Debug\netstandard2.0\BL.deps.json
+c:\Users\admin\Desktop\FinalProjectSEM1_Group03\BL\bin\Debug\netstandard2.0\BL.dll
+c:\Users\admin\Desktop\FinalProjectSEM1_Group03\BL\bin\Debug\netstandard2.0\BL.pdb
+c:\Users\admin\Desktop\FinalProjectSEM1_Group03\BL\bin\Debug\netstandard2.0\DAL.dll
+c:\Users\admin\Desktop\FinalProjectSEM1_Group03\BL\bin\Debug\netstandard2.0\Persistence.dll
+c:\Users\admin\Desktop\FinalProjectSEM1_Group03\BL\bin\Debug\netstandard2.0\DAL.pdb
+c:\Users\admin\Desktop\FinalProjectSEM1_Group03\BL\bin\Debug\netstandard2.0\Persistence.pdb
+c:\Users\admin\Desktop\FinalProjectSEM1_Group03\BL\obj\Debug\netstandard2.0\BL.csprojAssemblyReference.cache
+c:\Users\admin\Desktop\FinalProjectSEM1_Group03\BL\obj\Debug\netstandard2.0\BL.csproj.CoreCompileInputs.cache
+c:\Users\admin\Desktop\FinalProjectSEM1_Group03\BL\obj\Debug\netstandard2.0\BL.AssemblyInfoInputs.cache
+c:\Users\admin\Desktop\FinalProjectSEM1_Group03\BL\obj\Debug\netstandard2.0\BL.AssemblyInfo.cs
+c:\Users\admin\Desktop\FinalProjectSEM1_Group03\BL\obj\Debug\netstandard2.0\BL.csproj.CopyComplete
+c:\Users\admin\Desktop\FinalProjectSEM1_Group03\BL\obj\Debug\netstandard2.0\BL.dll
+c:\Users\admin\Desktop\FinalProjectSEM1_Group03\BL\obj\Debug\netstandard2.0\BL.pdb

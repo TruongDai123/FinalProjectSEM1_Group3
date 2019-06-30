@@ -13,7 +13,7 @@ namespace DAL
                 Connection = new MySqlConnection
                 {
                     ConnectionString = @"server=localhost; user id=root; port=3306;
-                                        password=nguyenminhthuxinhgai17122000;
+                                        password=dai123456789;
                                         database=RestaurantManagement"
                 };
             }

@@ -1,9 +1,9 @@
 using System;
 using System.Text.RegularExpressions;
-using CTS_DAL;
-using CTS_Persistence;
+using DAL;
+using Persistence;
 
-namespace CTS_BL
+namespace BL
 {
     public class UserBL
     {

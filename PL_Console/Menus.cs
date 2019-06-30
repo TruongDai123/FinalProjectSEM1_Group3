@@ -1,8 +1,8 @@
 using System;
 using System.Text;
 using System.Text.RegularExpressions;
-using CTS_BL;
-using CTS_Persistence;
+using BL;
+using Persistence;
 
 namespace PL_Console
 {
@@ -15,7 +15,7 @@ namespace PL_Console
             {
                 Console.WriteLine(err);
             }
-            string[] choice = { "log in", "exit the program" };
+            string[] choice = { "Đăng nhập", "Thoát" };
             int choose = Menu("Phần mềm quản lý nhà hàng", choice);
             switch (choose)
             {
@@ -37,11 +37,11 @@ namespace PL_Console
             {
                 Console.Clear();
                 Console.WriteLine("=================================================");
-                Console.WriteLine(" LOGIN");
+                Console.WriteLine(" ĐĂNG NHẬP");
                 Console.WriteLine("-------------------------------------------------");
-                Console.WriteLine("Uses Name");
+                Console.WriteLine("Tên đăng nhập: ");
                 usn = Console.ReadLine();
-                Console.WriteLine("Password");
+                Console.WriteLine("Mật khẩu: ");
                 pass = Console.ReadLine();
                 string choice;
 
@@ -89,7 +89,7 @@ namespace PL_Console
                     {
                         if (choice != "Y" && choice != "N")
                         {
-                            Console.Write("Bạn chỉ được nhập (C/K): ");
+                            Console.Write("Bạn chỉ được nhập (Y/N): ");
                             choice = Console.ReadLine().ToUpper();
                             continue;
                         }
@@ -171,7 +171,7 @@ namespace PL_Console
         {
             Console.Clear();
             string[] employeesmenu = { "Tạo Order món ăn", "Đăng xuất" };
-            string title = "Chào Mừng " + us.Name +" Chức Vụ " + us.Type;
+            string title = "Chào Mừng " + us.Name + " Chức Vụ " + us.Type;
             int emp = Menu(title, employeesmenu);
             switch (emp)
             {
@@ -204,7 +204,7 @@ namespace PL_Console
         {
             Console.Clear();
             string[] Paymenu = { "Thanh Toán.", "Đăng xuất." };
-            string title = "Chào Mừng " + us.Name +" Chức vụ " + us.Type;
+            string title = "Chào Mừng " + us.Name + " Chức vụ " + us.Type;
             int pay = Menu(title, Paymenu);
             switch (pay)
             {

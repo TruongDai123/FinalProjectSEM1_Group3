@@ -30,7 +30,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projectSEM1\\FinalProjectSEM1_Group3\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "c:\\Users\\admin\\Desktop\\FinalProjectSEM1_Group03\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "D:\\projectSEM1\\FinalProjectSEM1_Group3\\Persistence\\Persistence.csproj",
+      "projectPath": "c:\\Users\\admin\\Desktop\\FinalProjectSEM1_Group03\\Persistence\\Persistence.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\projectSEM1\\FinalProjectSEM1_Group3\\Persistence\\obj\\",
+      "outputPath": "c:\\Users\\admin\\Desktop\\FinalProjectSEM1_Group03\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

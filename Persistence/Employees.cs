@@ -1,6 +1,6 @@
 using System;
 
-namespace CTS_Persistence
+namespace Persistence
 {
     public class Employees
     {

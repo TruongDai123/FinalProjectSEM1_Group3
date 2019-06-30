@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Text;
 using System.Security;
-using CTS_BL;
+using BL;
 using System.Text.RegularExpressions;
-using CTS_Persistence;
+using Persistence;
 
 namespace PL_Console
 {
